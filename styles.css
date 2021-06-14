@@ -104,6 +104,9 @@ button {
     color: #aeb1b1;
     font-style: italic;
   }
+  input:focus, select:focus, textarea:focus  {
+    background-color: rgb(228, 243, 204);
+  }
   
 
   @media screen and (min-width: 768px) {
@@ -126,8 +129,8 @@ button {
     margin-bottom: 5px;  
   }
   #zip {
-    width: 16.25%;
-    margin-right: 48.79%;
+    width: 25%;
+    margin-right: 40%;
   }
   .boxfill {
     max-width: 65%;
